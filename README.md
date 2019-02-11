@@ -58,6 +58,10 @@ Choose a poem you like and add it to your BlueJ project as a .txt file. Then, in
 
 **Challenge (+2 EC)**: Revise your program so that instead of printing out the remixed poem, it writes the remixed poem to the end of the original .txt poem file.
 
+(You'll need to research and figure out how to write to files in Java!)
+
 ## Problem 4-4: Redacted [Optional Challenge]
 
 Add a Redacted.java class and a .txt file containing text of your choice (perhaps a literary excerpt) to your BlueJ project. Then write a method that takes in a keyword to censor in the original file. Your method should read in the file and write to another file the censored version of the original, with all occurrences of the keyword X'd out (for instance, a five-letter keyword would become XXXXX).
+
+(You'll need to research and figure out how to write to files in Java!)
