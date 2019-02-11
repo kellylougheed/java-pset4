@@ -61,7 +61,3 @@ Choose a poem you like and add it to your BlueJ project as a .txt file. Then, in
 ## Problem 4-4: Redacted [Optional Challenge]
 
 Add a Redacted.java class and a .txt file containing text of your choice (perhaps a literary excerpt) to your BlueJ project. Then write a method that takes in a keyword to censor in the original file. Your method should read in the file and write to another file the censored version of the original, with all occurrences of the keyword X'd out (for instance, a five-letter keyword would become XXXXX).
-
----
-
-Problem 4-2 is adapted from [CodeHS](https://www.codehs.com/).
