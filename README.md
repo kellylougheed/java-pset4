@@ -30,7 +30,7 @@ Spicy:
 
 (This is a common recursive practice problem, so you are on your honor not to look up the code and instead write the method yourself in order to learn more about recursion!)
 
-Call your method in Main.
+Call your method in the main method of the Fibonacci class.
 
 **Part 2:** Write a stack trace of the recursive method calls for `fibonacci(5)` in the same style as the stack trace for the [Factorial Lab](https://docs.google.com/document/d/1_dy_8VEPKYWQjr-xgC0_s8trAqc43IjbKFQOTBW_Hoo/).
 
@@ -48,11 +48,11 @@ numberOfBacteriaLastHour + numberOfBacteriaLastHour * 12
 
 Write a recursive method that computes the number of bacteria alive after N hours. The method  header should be: `public int numBacteriaAlive(int hour)`
 
-Then use your method in Main to figure out how many bacteria will be there after 12 hours.
+Then call your method in the main method of the Bacteria class to figure out how many bacteria will be there after 12 hours.
 
 ## Problem 4-3: Poetry Remix
 
-Choose a poem you like and add it to your BlueJ project as a .txt file. Then, in the `main` method of the PoetryRemix class, write a program that reads the file and prints out a remixed version of the poem -- the same poem, but with the lines all in random order!
+Choose a poem you like and add it to your BlueJ project as a .txt file. Then, in the main method of the PoetryRemix class, write a program that reads the file and prints out a remixed version of the poem -- the same poem, but with the lines all in random order!
 
 **Challenge (+0.5 EC)**: Refactor your work as a method that accepts a filename as an argument and returns void.
 
