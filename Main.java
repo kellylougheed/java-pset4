@@ -10,9 +10,9 @@ public class Main
     public static void main(String[] args) {
         String[] arg = {};
         
-        System.out.println("Problem 4-1: Fibonacci");
-        Fibonacci fib = new Fibonacci();
-        fib.main(arg);
+        System.out.println("Problem 4-1: Digits");
+        Digits dig = new Digits();
+        dig.main(arg);
         
         System.out.println("Problem 4-2: Bacteria");
         Bacteria bac = new Bacteria();
