@@ -24,13 +24,26 @@ Spicy:
 
 (This problem will be graded on scope, correctness, and style.)
 
-## Problem 4-1: Fibonacci
+## Problem 4-1: Digits
 
-**Part 1:** Write a method called `fibonacci` that takes in an integer as an argument and recursively calculates that number in the Fibonacci sequence. For example, `fibonacci(6)` should return 8, the sixth number in the Fibonacci sequence. As it is recursive, your method should have a base case and a recursive case.
+**Part 1:** Write a method called `sumOfDigits` that returns the sum of the digits of an integer.
 
-Call your method in the main method of the Fibonacci class.
+Examples:
+* If x is 234, the function should return 2 + 3 + 4, that is, 9.
+* If x is 12, the function should return 1 + 2, which is 3.
+* If x is 39, the function should return 12.
+* If x is negative, ignore the minus sign. For example, -12 and 12 both return 3.
 
-**Part 2:** Write a stack trace of the recursive method calls for `fibonacci(5)` in the same style as the stack trace for the [Factorial Lab](https://docs.google.com/document/d/1_dy_8VEPKYWQjr-xgC0_s8trAqc43IjbKFQOTBW_Hoo/).
+Use recursion.
+
+Hints:
+* The base case is a number between 0 and 9.
+* If x is negative, just multiply it by -1 as soon as you enter the function.
+* For the recursive call, consider how computing the values x/10 and x%10 might be useful.
+
+Call your method in the main method of the Digits class.
+
+**Part 2:** Write a stack trace of the recursive method calls for `sumOfDigits(23478)` in the same style as the stack trace for the [Factorial Lab](https://docs.google.com/document/d/1_dy_8VEPKYWQjr-xgC0_s8trAqc43IjbKFQOTBW_Hoo/).
 
 ## Problem 4-2: Bacteria
 
