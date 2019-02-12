@@ -26,24 +26,17 @@ Spicy:
 
 ## Problem 4-1: Digits
 
-**Part 1:** Write a method called `sumOfDigits` that returns the sum of the digits of an integer.
-
-Examples:
-* If x is 234, the function should return 2 + 3 + 4, that is, 9.
-* If x is 12, the function should return 1 + 2, which is 3.
-* If x is 39, the function should return 12.
-* If x is negative, ignore the minus sign. For example, -12 and 12 both return 3.
-
-Use recursion.
+**Part 1:** Write a method called `sumOfDigits` that returns the sum of the digits of an integer x. For example, if x is 234, the function should return 2 + 3 + 4 = 9. Use recursion.
 
 Hints:
 * The base case is a number between 0 and 9.
-* If x is negative, just multiply it by -1 as soon as you enter the function.
 * For the recursive call, consider how computing the values x/10 and x%10 might be useful.
 
 Call your method in the main method of the Digits class.
 
 **Part 2:** Write a stack trace of the recursive method calls for `sumOfDigits(23478)` in the same style as the stack trace for the [Factorial Lab](https://docs.google.com/document/d/1_dy_8VEPKYWQjr-xgC0_s8trAqc43IjbKFQOTBW_Hoo/).
+
+**Challenge (+1 EC)**: Have your function calculate the same result for a negative number as well as a positive number (i.e. 234 and -234 both return 9).
 
 ## Problem 4-2: Bacteria
 
