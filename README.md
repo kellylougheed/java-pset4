@@ -8,17 +8,19 @@ Choose one of the sorting algorithms below. Mild algorithms should be review fro
 
 * Research it!
 * Provide the **Java code**. There is no need to write the algorithm from scratch -- you may find code on the internet and cite it.
-* Write a **paragraph** walking through each line of code and how it works to demonstrate your understanding of the algorithm.
+* Write a **paragraph** about how the algorithm works. Reference and explain specific lines of the code to demonstrate your understanding of the algorithm.
 
 Mild:
 * Selection Sort
 * Bubble Sort
 * Insertion Sort
 
-Spicy:
-* Heap Sort
+Medium:
 * Counting Sort
+
+Spicy:
 * Radix Sort
+* Heap Sort
 
 **Challenge (+1 EC)**: Include some info about time/space complexity or another fun fact.
 
