@@ -4,7 +4,7 @@ For this problem set, you will turn in both a BlueJ file AND a Google doc (or si
 
 ## Problem 4-0: Sorting Algorithm
 
-Choose one of the sorting algorithms below. Mild algorithms should be review from CS50; spicy algorithms should be new! For your algorithm...
+Choose **one** of the sorting algorithms below. Mild algorithms should be review from CS50; medium and spicy algorithms should be new! For your algorithm...
 
 * Research it!
 * Provide the **Java code**. There is no need to write the algorithm from scratch -- you may find code on the internet and cite it.
