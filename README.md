@@ -6,9 +6,9 @@ For this problem set, you will turn in both a BlueJ file AND a Google doc (or si
 
 Choose **one** of the sorting algorithms below. Mild algorithms should be review from CS50; medium and spicy algorithms should be new! For your algorithm...
 
-* Research it!
+* Research it! Save your sources.
 * Provide the **Java code**. There is no need to write the algorithm from scratch -- you may find code on the internet and cite it.
-* Write a **paragraph** about how the algorithm works. Reference and explain specific lines of the code to demonstrate your understanding of the algorithm.
+* Write a **paragraph** about how the algorithm works. Reference and explain specific lines of the code to demonstrate your understanding of the algorithm. **Cite your sources** at the end -- just URLs are OK.
 
 Mild:
 * Selection Sort
