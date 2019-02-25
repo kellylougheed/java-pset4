@@ -18,7 +18,7 @@ Mild:
 Medium:
 * Counting Sort
 
-Spicy:
+Spicy **(+1 EC)**:
 * Radix Sort
 * Heap Sort
 
