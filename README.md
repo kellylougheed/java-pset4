@@ -52,9 +52,11 @@ In order to answer this question, you need to know a few things:
 numberOfBacteriaLastHour + numberOfBacteriaLastHour * 12
 * However, if we wanted to know how many bacteria are alive after 12 hours, we need to know how many bacteria were alive at hour 11. To find out how many bacteria are alive at hour 11, we need to figure out how many were alive at hour 10. We can use recursion to solve this problem.
 
-Write a recursive method that computes the number of bacteria alive after N hours. The method  header should be: `public int numBacteriaAlive(int hour)`
+Write a recursive method that computes the number of bacteria alive after N hours. The method  header should be: `public static int numBacteriaAlive(int hour)`
 
 Then call your method in the main method of the Bacteria class to figure out how many bacteria will be there after 12 hours.
+
+Hint: Hour 0 is your base case.
 
 ## Problem 4-3: Poetry Remix
 
