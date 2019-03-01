@@ -50,7 +50,7 @@ In order to answer this question, you need to know a few things:
 * This means that after two hours, the doorknob will have 30 + 30 * 2 = 90, since there were 30 bacteria at the beginning of hour two, and during that hour each bacteria created 2 more bacteria.
 * Continuing this pattern, the number of bacteria on the doorknob after N hours is 
 numberOfBacteriaLastHour + numberOfBacteriaLastHour * 12
-* However, if we wanted to know how many bacteria are alive after 12 hours, we need to know how many bacteria were alive at hour 11. To find out how many bacteria are alive at hour 11, we need to figure out how many were alive at hour 10. Do you see how we can use recursion to solve this problem?
+* However, if we wanted to know how many bacteria are alive after 12 hours, we need to know how many bacteria were alive at hour 11. To find out how many bacteria are alive at hour 11, we need to figure out how many were alive at hour 10. We can use recursion to solve this problem.
 
 Write a recursive method that computes the number of bacteria alive after N hours. The method  header should be: `public int numBacteriaAlive(int hour)`
 
