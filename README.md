@@ -54,7 +54,7 @@ numberOfBacteriaLastHour + numberOfBacteriaLastHour * 2
 
 Write a recursive method that computes the number of bacteria alive after N hours. The method  header should be: `public static int numBacteriaAlive(int hour)`
 
-Then call your method in the main method of the Bacteria class to figure out how many bacteria will be there after 12 hours.
+Then call your method in the main method of the Bacteria class to figure out how many bacteria will be there after 12 hours. It should print 5314410.
 
 Hint: Hour 0 is your base case.
 
