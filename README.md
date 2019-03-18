@@ -22,7 +22,7 @@ Spicy **(+1 EC)**:
 * Radix Sort
 * Heap Sort
 
-**Challenge (+1 EC)**: Include some info about time/space complexity or another fun fact.
+**Challenge (+1 EC)**: Include some info about time/space complexity or another relevant fun fact.
 
 (This problem will be graded on scope, correctness, and style.)
 
